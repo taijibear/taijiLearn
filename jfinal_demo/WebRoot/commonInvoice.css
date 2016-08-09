@@ -1,0 +1,156 @@
+
+
+.invoce.page_wrap {
+	width: 100%;
+	max-width : 900px;
+	min-width : 900px;
+	max-height : 600px;
+	min-height : 600px;
+}
+
+
+.invoice.head_title {
+	text-align:center;
+}
+
+.invoice.head_title span{
+	font-size: 28px;
+	
+}
+
+.invoice.kprq {
+	margin-top:20px;
+}
+
+.invoice.top_button_area a{
+	display : inline-block;
+	margin-left:10px;
+}
+
+.invoice.top_button_area {
+	display : inline-block;
+	margin-left:10px;
+}
+
+.invoice.top_button_area .btn div{
+		
+	display:block;
+	width: 44px;
+	height: 44px;
+	margin-left: -5px;
+	margin-bottom: 2px;
+}
+.invoice .save_button div{
+		
+	background: url(img/commonInvoice/save.png);
+}
+
+.invoice .billing_button div{
+		
+	background: url(img/commonInvoice/billing.png);
+}
+
+.invoice .void_button div{
+		
+	background: url(img/commonInvoice/void.png);
+}
+
+.invoice .print_button div{
+		
+	background: url(img/commonInvoice/print.png);
+}
+
+.invoice .save_button div:hover{
+		
+	background: url(img/commonInvoice/save_hover.png);
+}
+
+.invoice .billing_button div:hover{
+		
+	background: url(img/commonInvoice/billing_hover.png);
+}
+
+.invoice .void_button div:hover {
+		
+	background: url(img/commonInvoice/void_hover.png);
+}
+
+.invoice .print_button div:hover{
+		
+	background: url(img/commonInvoice/print_hover.png);
+}
+
+
+
+.invoice.top span {
+	
+	margin-left:6px;	
+}
+
+.invoice.common_invoice_info {
+
+}
+
+.invoice.common_invoice_info {
+	border: black solid thin;
+}
+
+.invoice.common_invoice_detail{
+	border-top: black solid thin;
+	border-bottom: black solid thin;
+	
+}
+
+.invoice.little_cell {
+	width:5%; 
+	border-left: thin solid black;
+	border-right: thin solid black;
+}
+
+.invoice.little_cell div {
+	margin-left:10px;
+	width: 30px
+}
+
+.invoice.tax_info {
+	
+	margin :10px;
+	
+	
+} 
+
+.invoice.tax_info  input{
+	
+	height: 16px;
+	margin: 2px;
+	width: 300px;
+	border: medium none;
+	border-bottom: 1px;
+
+	text-overflow: ellipsis;/*超出部分省略*/
+	white-space: nowrap;/*强制不换行*/
+	overflow:hidden; /*超出部分隐藏*/
+	
+	
+} 
+
+
+
+.invoice.lab {
+	
+	width:100px;
+	
+}
+
+.invoice.detail_table td , .invoice.detail_table th {
+	
+		border: black solid thin;
+	
+}
+
+.invoice.detail_table td {
+		height:16px;
+}
+
+
+.clear_float{ clear:both} 

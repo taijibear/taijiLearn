@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GBK" ?>
+<service>
+	<sid>SID04</sid>
+	<lx>0</lx>
+	<data_pub>
+		<key_kpd></key_kpd>
+		<key_kpfwq></key_kpfwq>
+		<key_nsrsbh></key_nsrsbh>
+		<slserver></slserver>
+		<kpserver></kpserver>
+	</data_pub>
+	<data_fp>
+		<fpzl>0</fpzl>
+		<fpdm></fpdm>
+		<fphm></fphm>
+	</data_fp>
+</service>

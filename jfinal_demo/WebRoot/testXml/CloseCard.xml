@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GBK" ?>
+<service>
+	<sid>SID02</sid>
+	<lx>调用类型</lx>
+	<data_pub>
+		<key_kpd>开票点号</key_kpd>
+		<key_kpfwq>服务器号</key_kpfwq>
+		<key_nsrsbh>纳税人编号</key_nsrsbh>
+		<slserver>受理服务器地址</slserver>
+		<kpserver>开票服务器地址</kpserver>
+	</data_pub>
+</service>

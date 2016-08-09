@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="GBK"?>
+ <data>
+   <fp>
+      <InfoKind>2</InfoKind>
+      <IsMutiRate>0</IsMutiRate>
+	  <ClientName>欧姆龙（中国）有限公司</ClientName>      
+      <ClientTaxCode>110102101774355</ClientTaxCode>
+      <ClientBankAccount>北京市朝阳区光华东里8号</ClientBankAccount>
+      <ClientAddressPhone>三菱东京日联银行</ClientAddressPhone>
+      <SellerBankAccount>招商银行济南泉城路支行 531903584810801 </SellerBankAccount>
+      <SellerAddressPhone>山东省济南市高新区舜华路1号齐鲁软件园2号楼（创业广场B座）四层A401/A403 0531-68653138</SellerAddressPhone>
+      <TaxRate>6</TaxRate>
+      <Notes>备注</Notes>
+      <Invoicer>开票员1</Invoicer>
+      <Checker>复核人1</Checker>
+      <Cashier>收款人1</Cashier>
+      <ListName></ListName>
+      <BillNumber></BillNumber>
+   </fp>
+   <group>
+     <fpmx>
+      <ListGoodsName>通讯服务费</ListGoodsName>
+      <ListTaxItem></ListTaxItem>
+      <ListStandard></ListStandard>
+      <ListUnit>笔</ListUnit>
+      <ListNumber>2</ListNumber>
+      <ListPrice>500</ListPrice>
+      <TaxRate>6</TaxRate>
+      <ListAmount>1000</ListAmount>
+      <ListPriceKind>0</ListPriceKind>
+      <ListTaxAmount>60</ListTaxAmount>
+     </fpmx>
+      <fpmx>
+      <ListGoodsName>业务费</ListGoodsName>
+      <ListTaxItem>1</ListTaxItem>
+      <ListStandard>1</ListStandard>
+      <ListUnit>1</ListUnit>
+      <ListNumber>1</ListNumber>
+      <ListPrice>500</ListPrice>
+      <TaxRate>6</TaxRate>
+      <ListAmount>500</ListAmount>
+      <ListPriceKind>0</ListPriceKind>
+      <ListTaxAmount>30</ListTaxAmount>
+     </fpmx>
+   </group>
+ </data>

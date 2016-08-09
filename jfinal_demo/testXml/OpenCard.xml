@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GBK" ?>
+<service>
+	<sid>SID01</sid>
+	<lx>0</lx>
+	<CertPassWord>666</CertPassWord>
+	<UploadAuto>1</UploadAuto>
+	<data_pub>
+		<key_kpd></key_kpd>
+		<key_kpfwq></key_kpfwq>
+		<key_nsrsbh></key_nsrsbh>
+		<slserver></slserver>
+		<kpserver></kpserver>
+	</data_pub>
+</service>

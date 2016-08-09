@@ -1,0 +1,257 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>通用发票展示页面</title>
+
+<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="commonInvoice.js" type="text/javascript"></script>
+<link type="text/css" href="commonInvoice.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="invoce page_wrap">
+		<div class='invoice head_title'>
+			<span>增值税专用发票</span>
+		</div>
+
+		<div class="invoice head">
+
+			<table style="width: 100%"  cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td style="width: 30%">
+							<div class="invoice  title_left" style="float: left">
+								<div>
+									<span class="invoice fphm title">发票代码:</span><span class="invoice fphm lb"></span>
+								</div>
+								<div>
+									<span class="invoice fpdm title">发票号码:</span><span class="invoice fpdm lb"></span>
+								</div>
+							</div>
+						</td>
+						<td style="width: 30%">
+							<div style="float: left;">
+								<div></div>
+								<div class="invoice kprq">
+									<span class="invoice kprq title">开票日期:</span><span class="invoice kprq lb"></span>
+								</div>
+							</div>
+						</td>
+						<td style="width: 60%">
+
+							<div class="invoice top_button_area" style="float: right">
+								<div>
+									<a class="invoice btn save_button"> 
+										<div  ></div>
+										<span>保存</span>
+									</a> 
+
+									<a  class="invoice btn billing_button">
+										<div src="img/commonInvoice/billing.png" ></div>
+										<span>开票</span>
+									</a> 
+										<a class="invoice  btn void_button"> 
+										<div src="img/commonInvoice/void.png" ></div>
+										<span>作废</span>
+									</a> 
+
+									<a class="invoice  btn print_button">
+										<div src="img/commonInvoice/print.png" ></div>
+										<span>打印</span>
+									</a>
+								</div>
+								<div class="clear_float"></div>
+							</div>
+
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+			<div class="clear_float"></div>
+
+		</div>
+		<div class='invoice common_invoice_info' >
+			<table style="width:100%" cellpadding="0" cellspacing="0">
+				<tbody>
+					<!-- 购方信息区域  -->
+					<tr style="height: 30%">
+						<td>
+							<div class=" invoice common__info_purchase'">
+
+								<table cellpadding="0" cellspacing="0"  style="width:100%">
+									<tbody>
+										<tr>
+											<!-- 购方信息左边区域  -->
+											<td  class="invoice little_cell" style="border-left: none;"><div >购方单位</div></td>
+											<td style="width:50%">
+												<div>
+													<table cellpadding="0" cellspacing="0"  class="invoice tax_info">
+														<tbody>
+															<tr>
+																<td class="invoice lab">名称</td>
+																<td><input class="invoice gfmc tb" type="text" /></td>
+															</tr>
+															<tr>
+																<td class="invoice lab">纳税人识别号</td>
+																<td><input class="invoice gfsh tb" type="text" /></td>
+															</tr>
+															<tr>
+																<td class="invoice lab">地址，电话</td>
+																<td><input class="invoice gfdzdh tb" type="text" /></td>
+															</tr>
+															<tr>
+																<td class="invoice lab">开户行及账号</td>
+																<td><input class="invoice gfyhzh tb" type="text" /></td>
+															</tr>
+														</tbody>
+													</table>
+
+												</div>
+
+											</td>
+											<td class="invoice little_cell"  ><div >密文</div></td>
+											<!-- 购方信息右边区域 (密码区域)  -->
+											<td style="width:45%">
+												<div>
+													<!-- <textarea style="height:95%; width:95%" ></textarea> -->
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+							</div>
+						</td>
+					</tr>
+
+					<!-- 发票明细区域  -->
+					<tr style="height:35%">
+						<td>
+							<div class="invoice common_invoice_detail" style="min-height:150px">
+								<table class="invoice detail_table" cellpadding="0" cellspacing="0"  style="width:100%">
+									<thead>
+										<tr>
+											<th style="width:auto">货物或应税劳务名称</th>
+											<th style="width:10%">规格型号</th>
+											<th style="width:10%">单位</th>
+											<th style="width:10%">数量</th>
+											<th style="width:10%">价格</th>
+											<th style="width:10%">金额</th>
+											<th style="width:10%">税率</th>
+											<th style="width:10%">税额</th>
+										</tr>
+									</thead>
+									<tbody>
+											<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+											<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+											<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+									</tbody>
+								</table>
+							</div> 
+						</td>
+					</tr>
+
+					<!-- 明细合计区 -->
+					<tr  style="height:5%; border-bottom: black solid thin ">
+						<td>
+							<table style=" border-bottom: black solid thin ;width: 100%">
+									<td>合计金额</td>
+									<td>79,335.00</td>
+									<td>合计税额</td>
+									<td>13,486.95</td>
+									<td>价税合计</td>
+									<td>92821.95</td>
+								</tbody>
+							</table>
+							
+						</td>
+	
+
+					</tr>
+
+					
+
+					<!-- 销方信息区域  -->
+					<tr style="height: 30%">
+						<td>
+							<div class="invoice common_invoice_ sale">
+
+								<table cellpadding="0" cellspacing="0" style="width:100%">
+									<tr>
+										<!-- 销方信息左边区域  -->
+										<td class="invoice little_cell" style="border-left: none;"  ><div >销方单位</div></td>
+										<td style="width: 50%">
+											<div>
+												<table cellpadding="0" cellspacing="0" class="invoice tax_info">
+													<tr>
+														<td class="invoice lab">名称</td>
+														<td><input class="invoice xfmc tb" type="text" /></td>
+													</tr>
+													<tr>
+														<td class="invoice lab">纳税人识别号</td>
+														<td><input class="invoice xfsh tb" type="text" /></td>
+													</tr>
+													<tr>
+														<td class="invoice lab">地址，电话</td>
+														<td ><input class="invoice xfdzdh tb" type="text" /></td>
+													</tr>
+													<tr>
+														<td class="invoice lab">开户行及账号</td>
+														<td><input class="invoice xfyhzh tb" type="text" /></td>
+													</tr>
+												</table>
+
+											</div>
+
+										</td>
+										<!-- 销方信息右边区域 (密码区域)  -->
+										<td class="invoice little_cell" ><div >备注信息</div></td>
+										<td style="width: 45%">
+										
+												<div  style="width:100%; hegth:100%">
+														<!-- <textarea style="height:95%; width:95%" ></textarea> -->
+												</div>
+										
+										</td>
+									</tr>
+								</table>
+
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<div style="width:100% ; border-top: thin black solid ; padding: 5px; padding-left: 30px">
+								<div style="float: left;margin-right: 20px"><span class="invoice kpr title">开票人:</span> <span class="invoice kpr lb"></span></div>
+								<div style="float: left;margin-right: 20px"><span class="invoice skr title">收款人:</span> <span class="invoice skr lb"></span></div>
+								<div style="float: left;margin-right: 20px"><span class="invoice fhr title">复核人:</span> <span class="invoice fhr lb"></span></div>
+								<div class="clear_float"></div>
+							</div>
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+
+		</div>
+	<!-- 	<div class="invoice button_button_area">
+			<div class="invoice top_button_area">
+				<div style="float: right">
+					<button>保存</button>
+					<button>编辑</button>
+					<button>关闭</button>
+				</div>
+				<div class="clear_float"></div>
+			</div>
+
+		</div> -->
+	</div>
+
+</body>
+</html>
