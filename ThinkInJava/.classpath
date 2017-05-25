@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry excluding="containers/|polymorphism/|control/|gui/|xml/|innerclasses/|reusing/|access/|object/|arrays/|concurrency/|enumerated/|generics/|io/xfiles/|strings/|annotations/|initialization/|swt/|typeinfo/|holding/|operators/|io/|exceptions/|interfaces/" kind="src" path=""/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
