@@ -1,4 +1,4 @@
-package thinkInJava.operators;
+ package thinkInJava.operators;
 
 //: operators/AllOps.java
 // Tests all the operators on all the primitive data types
