@@ -7,7 +7,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import org.apache.http.client.ClientProtocolException;
 
 import com.google.gson.JsonArray;
@@ -29,17 +28,15 @@ public class Test {
 		ActiveRecordUtil.initDb();
 		
 	  	Record inv = getInvByHm ( "03267013"  );
-	  //	List<Record> invList = new ArrayList<Record> ();
-	  //	invList.add(inv);
+	    //	List<Record> invList = new ArrayList<Record> ();
+	    //	invList.add(inv);
 
 	  	//testDeductible ( invList ,"201705", false);
 	  	testDkResult( inv , false );
 	  	
 	  	// System.out.println(   json.toString() );
-		
 	  	//	testGetAllQuery();
-		
-	  //	String taxNo =  "913701007317289784";
+	    //	String taxNo =  "913701007317289784";
 	  	
 	  	String taxNo =  "916501000802448054";
 	 // 	String enterprise  = "普联软件股份有限公司" 
