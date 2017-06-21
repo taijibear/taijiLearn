@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<title>无标题文档</title>  
+</head>  
+  
+<body>  
+  
+<div id="main" style="width: 1200px;height:1200px;"></div>  
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>  
+<script type="text/javascript" src="js/echarts.js"></script>  
+<script type="text/javascript" src="js/china.js"></script>  
+ <!-- 为ECharts准备一个具备大小（宽高）的Dom -->  
+      
+    <script type="text/javascript">  
+        // 基于准备好的dom，初始化echarts实例  
+        var myChart = echarts.init(document.getElementById('main'));  
+  
+        option = {  
+            tooltip: {  
+                trigger: 'item',  
+                formatter: '{b}'  
+            },  
+            series: [  
+                {  
+                    name: '中国',  
+                    type: 'map',  
+                    mapType: 'china',  
+                    selectedMode : 'multiple',  
+                    label: {  
+                        normal: {  
+                            show: true  
+                        },  
+                        emphasis: {  
+                            show: true  
+                        }  
+                    },  
+                    data:[  
+                        {name:'广东', selected:true}  
+                    ]  
+                }  
+            ]  
+        };  
+  
+        // 使用刚指定的配置项和数据显示图表。  
+        myChart.setOption(option);  
+    </script>  
+  
+</body>  
+</html>  
